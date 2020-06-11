@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-app-desktop",
+  "version": "1.0.0",
+  "description": "Aplicación de Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder -w"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.2",
+    "electron-builder": "^22.7.0"
+  }
+}
